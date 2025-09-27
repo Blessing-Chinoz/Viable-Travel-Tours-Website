@@ -31,6 +31,7 @@ const LandingPage = () => {
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
+ 
   return (
     <div
       className={`min-h-screen ${themeClasses.bg} ${themeClasses.text} overflow-hidden transition-colors duration-300`}

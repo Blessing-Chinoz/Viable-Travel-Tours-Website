@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   // Navigation items with their routes
   const navItems = [
     { name: "Home", route: "/" },
-    { name: "About", route: "/*" },
+    { name: "About", route: "/about" },
     { name: "Services", route: "/services" },
     { name: "Team", route: "/team" },
     { name: "Contact", route: "/contact" },
@@ -72,7 +72,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                   className="h-12 w-auto lg:h-14 transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              
+
               <div className="ml-3 flex flex-col">
                 <span
                   className={`text-lg lg:text-xl font-bold ${
@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 <span
                   className={`text-xs ${themeClasses.textSecondary} font-medium tracking-wide hidden sm:block`}
                 >
-                  Travel Far • Travel Wide 
+                  Travel Far • Travel Wide
                 </span>
               </div>
             </div>
